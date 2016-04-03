@@ -14,18 +14,28 @@
 <div id="brand">
 	elevate
 	</div>
-	<div id="nav">
-		&nbsp;
-	</div>
+<nav id="primary_nav_wrap">
+<ul>
+  
+  <li><a href="#">Account</a>
+    <ul>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </li>
+  
+</ul>
+</nav>
 
 	</header>
 
 <div id="cover">
-
+<input type="file" class="file-upload ">
 </div>
 
 <div id="profile">
-&nbsp;
+<br/>
+<input type="file" class="file-upload ">
 </div>
 <div class="brand-name">
 Company Name
