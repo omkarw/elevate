@@ -34,36 +34,89 @@ Write anything which makes you proud about yourself! Don't brag make it to 140 c
 </div>
 <div id="container">
 
+<div id="section1">
 	<ul id="intro">
-	<li><img src="img/a.png" width="20"/>Location</li>
-	<li><img src="img/b.png" width="20"/>Area Of Operation</li>
-	<li><img src="img/c.png" width="16"/>Inception</li>
-	<li><img src="img/d.png" width="16"/>Employees</li>
-	<li><img src="img/e.png" width="16"/>URL</li>
+	<li><img src="img/a.png" width="20"/><label class="basics">Location</label></li>
+	<li><img src="img/b.png" width="20"/><label class="basics">Area Of Operation</label></li>
+	<li><img src="img/c.png" width="16"/><label class="basics">Inception</label></li>
+	<li><img src="img/d.png" width="16"/><label class="basics">Employees</label></li>
+	<li><img src="img/e.png" width="16"/><label class="basics">URL</label></li>
 
 	</ul>
+</div>
 
+<div id="section2">
 <div class="title">{Company Name} Overview</div>
 
-<ul id="images">
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>		
-<li><img src="img/thumb.jpg"/></li>			
-<li><img src="img/thumb.jpg"/></li>			
-<li><img src="img/thumb.jpg"/></li>			
-</ul>
-<br/>
-<div class="title">Current Openings at {Company Name}</div>
 
+
+<div id="gallery">
+	<!-- thumbnail image wrapped in a link -->
+    <section class="item">
+        <a href="#img1">
+          <img src="img/img1.jpg">
+        </a>
+    </section>
+    <section class="item">
+        <a href="#img2">
+          <img src="img/img2.jpg">
+        </a>
+    </section>
+    <section class="item">
+        <a href="#img3">
+          <img src="img/img3.jpg">
+        </a>
+    </section>
+
+</div>
+
+<!-- lightbox container hidden with CSS -->
+<div class="lightbox" id="img1">
+  <div class="box">
+	<a class="close" href="#">X</a>
+    <p class="title">Office of (Company Name)</p>
+    <div class="content">
+    	<img src="img/img1.jpg"> 
+      <!-- Not Required right now   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text Modal Window Nullam at volutpat ipsum. Nullam nec posuere ante. Nulla molestie ac odio sed malesuada.Text Modal Window With a Video Ut dapibus odio eget vestibulum condimentum.</p>-->
+    </div>
+    <a class="prev" href="#img3">Previous</a>
+    <a class="next" href="#img2">Next</a>
+    <div class="clear"></div>
+  </div>
+</div>    
+    
+<div class="lightbox" id="img2">
+  <div class="box">
+	<a class="close" href="#">X</a>
+      <p class="title">Office of (Company Name)</p>
+    <div class="content">
+    	<img src="img/img2.jpg"> 
+      <!--    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text Modal Window Nullam at volutpat ipsum. Nullam nec posuere ante. Nulla molestie ac odio sed malesuada.Text Modal Window With a Video Ut dapibus odio eget vestibulum condimentum.</p>-->
+    </div>
+    <a class="prev" href="#img2">Previous</a>
+    <a class="next" href="#img3">Next</a>
+    <div class="clear"></div>
+  </div>
+</div>  
+
+<div class="lightbox" id="img3">
+  <div class="box">
+	<a class="close" href="#">X</a>
+    <p class="title">Office of (Company Name)</p>
+    <div class="content">
+    	<img src="img/img3.jpg"> 
+       <!-- <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text Modal Window Nullam at volutpat ipsum. Nullam nec posuere ante. Nulla molestie ac odio sed malesuada.Text Modal Window With a Video Ut dapibus odio eget vestibulum condimentum.</p>-->
+    </div>
+    <a class="prev" href="#img2">Previous</a>
+    <a class="next" href="#img1">Next</a>
+    <div class="clear"></div>
+  </div>
+</div>  
+
+
+</div>
+<div id="section3">
+<div class="title">Current Openings at {Company Name}</div>
 
 <ul id="jobs">
 <li class="job-title">Software Engineer Required. <div class="button">Apply</div><br/>
@@ -75,14 +128,9 @@ Write anything which makes you proud about yourself! Don't brag make it to 140 c
 <span class="job-desc"> ( San Frensisco, Part Time, 125,000$ ) </span></li>
 </ul>
 
-
-
-<div class="title">Perks of working at {CompanyName} </div>
-
-
-
-
 </div>
+
+
 
 
 <footer>&nbsp;</footer>
