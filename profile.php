@@ -97,6 +97,7 @@ Write anything which makes you proud about yourself! Don't brag make it to 140 c
 	<input type="text" placeholder="Job Title" class="profiletextinput3" /> 
 	<input type="text" placeholder="Job Video URL" class="profiletextinput3" />
 	<input type="text" placeholder="Job Location" class="profiletextinput3" />
+	<input type="text" placeholder="Salary" class="profiletextinput3" />
 	<input type="text" placeholder="Add Tags" class="profiletextinput3" />
 	<input type="text" placeholder="Add Skills" class="profiletextinput3" /><br/>
 <input type="button" class="button" id="jobbutton" value="Post new job">
